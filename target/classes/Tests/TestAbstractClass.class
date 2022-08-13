@@ -1,0 +1,27 @@
+Êþº¾   = ‚
+       java/lang/Object <init> ()V  user.dir
+ 
+ 
+   
+  java/lang/System 
+getProperty &(Ljava/lang/String;)Ljava/lang/String;	 
+    out Ljava/io/PrintStream;
+       java/io/PrintStream  println (Ljava/lang/String;)V      makeConcatWithConstants   .org/openqa/selenium/remote/DesiredCapabilities
+     
+deviceName " 
+emulator-5554
+  $ % & 
+setCapability '(Ljava/lang/String;Ljava/lang/String;)V ( platformName *  Android , app  . java/io/File
+ - 0  
+ - 2 3 4 getAbsolutePath ()Ljava/lang/String; 6 
+appPackage 8 com.ecommerce.service : 
+appActivity < -com.ecommerce.service.Activity.SplashActivity >  noReset
+  @ % A (Ljava/lang/String;Z)V C 	fullReset  E +io/appium/java_client/android/AndroidDriver  G java/net/URL I http://127.0.0.1:4723/wd/hub
+ F 0
+ D L  M 3(Ljava/net/URL;Lorg/openqa/selenium/Capabilities;)V	 O P  Q R S Tests/TestAbstractClass driver -Lio/appium/java_client/android/AndroidDriver;  U ,org/openqa/selenium/support/ui/WebDriverWait       
+ T Y  Z #(Lorg/openqa/selenium/WebDriver;J)V	 O \ ] ^ wait .Lorg/openqa/selenium/support/ui/WebDriverWait; 	Signature TLio/appium/java_client/android/AndroidDriver<Lio/appium/java_client/MobileElement;>; Code LineNumberTable LocalVariableTable this LTests/TestAbstractClass; setup PROJECT_ROOT Ljava/lang/String; APK_PATH capabilities 0Lorg/openqa/selenium/remote/DesiredCapabilities; 
+Exceptions  n java/net/MalformedURLException RuntimeVisibleAnnotations $Lorg/testng/annotations/BeforeSuite; 
+SourceFile TestAbstractClass.java BootstrapMethods u
+ v w  x  y $java/lang/invoke/StringConcatFactory ˜(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; { /resources/ecommerce-test.apk InnerClasses  ~ %java/lang/invoke/MethodHandles$Lookup  € java/lang/invoke/MethodHandles Lookup! O      R S  _    `  ] ^        a   /     *· ±    b        c        d e    f   a   ÿ     ƒ ¸ 	L² +¶ +º   M» Y· N-!¶ #-')¶ #-+» -Y,· /¶ 1¶ #-57¶ #-9;¶ #-=¶ ?-B¶ ?*» DY» FYH· J-· Kµ N*» TY*´ N V· Xµ [±    b   :       
+       $ ! , " = # E $ M % T & [ ' p ( ‚ ) c   *    ƒ d e    } g h   o i h   g j k  l     m o     p    q    r s     t  z |   
+  }   
